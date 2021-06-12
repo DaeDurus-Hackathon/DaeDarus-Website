@@ -6967,7 +6967,7 @@
 	/* Start Navigation Title Link Border Color */
 	@media only screen and (min-width: 1025px) {
 		ul.navigation > li {
-			border-color:rgba(255,255,255,0.1);
+			border-color:rgba(255,255,255,0);
 		}
 	}
 	/* Finish Navigation Title Link Border Color */
