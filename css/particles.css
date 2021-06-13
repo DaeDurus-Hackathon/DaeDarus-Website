@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+.card {
+    position: absolute;
+    top: 170px;
+    left: 450px;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #fbdd74, #67568c);
+}
+
+.card img {
+    position: absolute;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.card:hover img {
+    left: 75%;
+    height: 300px;
+}
+
+.card .content {
+    position: relative;
+    width: 50%;
+    left: 10%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .content {
+    opacity: 1;
+    visibility: visible;
+    left: 0%;
+}
+
+.card .content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1em;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .card {
+        top: 400px;
+        left: 160px;
+    }
+}
+
+#particles-js {
+    background: #1f1235;
+    background-size: cover;
+    background-position: 50% 50%;
+}
