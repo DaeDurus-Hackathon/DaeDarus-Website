@@ -5,6 +5,12 @@ import Tale from './components/Tale/Tale'
 import Ready from './components/Ready/Ready'
 import Tracks from './components/Tracks/Tracks'
 import Sponsors from './components/Sponsors/Sponsors'
+import Community from './components/Community/Community'
+import OC from './components/OC/OC'
+import Prizes from './components/Prizes/Prizes'
+import FAQ from './components/FAQ/FAQ'
+import CTA from './components/CTA/CTA'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +21,12 @@ function App() {
       <Ready />
       <Tracks />
       <Sponsors />
+      <Community />
+      <OC />
+      <Prizes />
+      <FAQ />
+      <CTA />
+      <Footer />
     </div>
   );
 }
