@@ -1,0 +1,22 @@
+.faq {
+    background-color: black;
+    height: 100%;
+}
+
+.accordion {
+    padding: 3rem;
+    text-align: left;
+    font-size: 24px;
+}
+
+.acc-toggle {
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 786px) {
+    .accordion {
+        padding: 2rem 0;
+        font-size: 16px;
+    }
+}

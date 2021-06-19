@@ -1,7 +1,9 @@
 .tale {
     height: 100%;
+    padding: 3rem 0;
 }
 
 .daed-img {
     max-width: 35vmax;
+    border-radius: 20px;
 }

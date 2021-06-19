@@ -10,11 +10,11 @@ export default function Landing() {
             <span className="date">13 - 15 August</span>
 
             <div className="my-5">
-                <Button variant="primary" size="lg">
-                Large button
+                <Button variant="outline-primary" size="lg">
+                Register Now!
                 </Button>{' '}
-                <Button variant="secondary" size="lg">
-                Large button
+                <Button variant="outline-light" size="lg">
+                <img src="https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png" style={{maxHeight: '30px'}}/>
                 </Button>
             </div>
         </div>
