@@ -55,6 +55,12 @@
     animation: shine 6s ease infinite;
 }
 
+.svg-img {
+  position: absolute;
+  bottom: -10%;
+  right: 0;
+}
+
 @keyframes shine {
     0% {
 		background-position: 0% 50%;
