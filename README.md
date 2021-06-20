@@ -21,4 +21,5 @@ Images / Videos for the Backgrounds of sections
 Answers for the FAQ questions  
 Styling Ideas
 
-### For all the changes required in design, colors, font, layout, shapes etc. update the changes on the excel sheet
+### For all the changes required in design, colors, font, layout, shapes etc. update the changes on the excel sheet  
+`**Link to the excel sheet to be updated soon**`
