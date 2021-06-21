@@ -6,11 +6,11 @@ export default function CTA() {
         <div>
             <h1>Be a part of the DaeDarus' Hacks today!</h1>
             <div className="my-5">
-                <Button variant="primary" size="lg">
-                Large button
+                <Button variant="primary" size="xxl" className="mx-2">
+                Register Now!
                 </Button>{' '}
-                <Button variant="secondary" size="lg">
-                Large button
+                <Button variant="light" size="xxl" className="mx-2">
+                <img src="https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png" style={{maxHeight: '35px'}}/>
                 </Button>
             </div>
         </div>

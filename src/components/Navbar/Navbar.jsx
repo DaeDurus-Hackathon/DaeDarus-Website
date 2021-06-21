@@ -18,24 +18,24 @@ export default function NavBar() {
                 </Navbar.Brand>
 
                 <Navbar.Brand className="nav-name" href="#home">
-                <span style={{fontSize: '36px'}}>DaeDarus' Hacks</span>
+                <span style={{fontSize: '36px', fontFamily: 'poppins'}}>DaeDarus' Hacks</span>
                 </Navbar.Brand>
             <Navbar.Toggle className="toggler" aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="nav-links">
-                <Nav className="ml-auto">
-                <Nav.Link href="#features">Tracks</Nav.Link>
-                <Nav.Link href="#pricing">Sponsors</Nav.Link>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                <Nav className="ml-auto" style={{fontFamily: 'Poppins'}}>
+                <Nav.Link href="#tracks">Tracks</Nav.Link>
+                <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+                {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown>
-                <Nav.Link href="#pricing">Organizers</Nav.Link>
-                <Nav.Link href="#pricing">Community Partners</Nav.Link>
-                <Nav.Link href="#pricing">Prizes</Nav.Link>
-                <Nav.Link href="#pricing">FAQs</Nav.Link>
+                </NavDropdown> */}
+                <Nav.Link href="#organizers">Organizers</Nav.Link>
+                <Nav.Link href="#cp">Community Partners</Nav.Link>
+                <Nav.Link href="#prizes">Prizes</Nav.Link>
+                <Nav.Link href="#faq">FAQs</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>         

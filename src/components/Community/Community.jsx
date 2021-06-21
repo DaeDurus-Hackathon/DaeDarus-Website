@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'react-bootstrap'
 
 export default function Community() {
     return (
-        <div>
+        <div id="cp">
             <h1>Community Partners</h1>
             <Container className="py-5">
             <Row className="my-5">

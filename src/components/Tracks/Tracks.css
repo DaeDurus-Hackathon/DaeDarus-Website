@@ -72,9 +72,19 @@
 		background-position: 0% 50%;
 	}
   }
-  @media only screen and (max-width: 786px)
-  {
-    .flip-card:active .flip-card-inner {
-        transform: rotateY(180deg);
-      }
+
+
+@media only screen and (max-width: 786px)
+{
+  .flip-card:active .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+  .flip-card-back h4 {
+    font-size: 1.2rem;
   }
+
+  .flip-card-back {
+    padding: 2rem;
+  }
+}

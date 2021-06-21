@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 .App {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
   width: 100%;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
 }

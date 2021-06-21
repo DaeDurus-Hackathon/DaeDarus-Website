@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'react-bootstrap'
 
 export default function Sponsors() {
     return (
-        <div>
+        <div id="sponsors">
             <h1>Sponsors</h1>
             <Container className="py-5">
             <Row className="my-5">

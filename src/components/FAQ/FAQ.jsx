@@ -4,7 +4,7 @@ import '../FAQ/faq.css'
 
 export default function FAQ() {
     return (
-        <div className="faq">
+        <div className="faq" id="faq">
             <h1 className="pt-5" style={{color: 'white'}}>FAQ's</h1>
 
             <Accordion className="mx-5 accordion" flush>

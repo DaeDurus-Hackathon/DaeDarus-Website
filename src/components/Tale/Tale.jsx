@@ -15,9 +15,9 @@ export default function Tale() {
                 <Col>
                     <h3 className="text-left">
                         
-                    Daedalus was a skillful architect and craftsman from the Greek mythology, regarded as a man of wisdom and knowledge. Amongst his most popular creations was the Labyrinth which was used as a means to imprison the Minotaur. Daedalus is the amalgamation of Daedalus and Icarus (his son). 
-                        
-                    With Daedarus’s Hack, create your own labyrinth of ideas, and use it to trap your desired project and help promote sustainable development for the greater good. 
+                    Daedalus was a skillful architect and craftsman from the Greek mythology, regarded as a man of wisdom and knowledge. Amongst his most popular creations was the Labyrinth which was used as a means to imprison the Minotaur. Daedarus is the amalgamation of Daedalus and Icarus (his son). 
+                    <br/><br/>
+                    With Daedarus’ Hack, create your own labyrinth of ideas, and use it to trap your desired project and help promote sustainable development for the greater good. 
                     
                     </h3>
                 </Col>

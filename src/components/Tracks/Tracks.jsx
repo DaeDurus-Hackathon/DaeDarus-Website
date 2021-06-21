@@ -9,7 +9,7 @@ import green from '../../DrawKit - Love & Family/family8.svg'
 
 export default function Tracks() {
     return (
-        <div>
+        <div id="tracks">
             <h1 className="pt-5">Tracks</h1>
             <Container className="py-5">
             <Row>

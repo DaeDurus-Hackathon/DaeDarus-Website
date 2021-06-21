@@ -4,7 +4,7 @@ import '../OC/OC.css'
 
 export default function OC() {
     return (
-        <div className="oc">
+        <div className="oc" id="organizers">
             <h1>Organizers</h1>
             <Container className="py-5">
             <Row className="my-5">
