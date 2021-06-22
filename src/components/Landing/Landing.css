@@ -1,41 +1,46 @@
 .landing {
-    height: 100vh;
-    background-color: black;
-    color: white;
+  height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 .topline {
-    padding-top: 30vh;
-    font-size: 3vmax;
+  padding-top: 30vh;
+  font-size: 3vmax;
 }
 
 .mainhead {
-    font-size: 8vmax;
-    background: linear-gradient(-45deg, #ee7752 20%, #e73c7e 40%, #23a6d5 60%, #23d5ab 80%);
-    background-size: 200% auto;
-    
-    color: #000;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-    animation: shine 6s ease infinite;
+  font-size: 8vmax;
+  background: linear-gradient(
+    -45deg,
+    #ee7752 20%,
+    #e73c7e 40%,
+    #23a6d5 60%,
+    #23d5ab 80%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 6s ease infinite;
 }
 
 @keyframes shine {
-    0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
   }
-
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 .date {
-    font-size: 3vmax;
+  font-size: 3vmax;
 }
