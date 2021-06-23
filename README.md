@@ -7,19 +7,20 @@
 Navbar  
 Landing  
 Tracks  
+Sponsors / Community Partners  
+We are Ready  
 
 ## Sections Designed and which need work: 
 
-Sponsors / Community Partners  
-We are Ready  
 Organizers  
 Footer  
 
 ## Resources needed:
 
-Images / Videos for the Backgrounds of sections  
-Answers for the FAQ questions  
-Styling Ideas
+- [ ] Images / Videos for the Backgrounds of sections  
+- [ ] Answers for the FAQ questions  
+- [x] Styling Ideas  
+- [ ] High Quality PNG image of DaeDarus Logo
 
 ### For all the changes required in design, colors, font, layout, shapes etc. update the changes on the excel sheet  
-`**Link to the excel sheet to be updated soon**`
+https://docs.google.com/spreadsheets/d/12quzl8WyiUcOWykE8mN_1cxZ7yxoe0jIIUjiwTbmphY/edit#gid=0
