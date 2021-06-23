@@ -1,11 +1,11 @@
 .navbar {
- background-color: rgb(0, 0, 0, 0.8);
- backdrop-filter: blur(10px);
- color: white;
+  background-color: rgb(0, 0, 0, 0.6);
+  backdrop-filter: blur(15px);
+  color: rgb(207, 207, 207);
 }
 
 .nav-links {
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
 
 .nav-toggles:hover {
@@ -18,11 +18,11 @@
         display: none;
     }
 
-    .nav-links {
-        margin-right: unset;
-    }
+  .nav-links {
+    margin-right: unset;
+  }
 
-    .toggler {
-        border: none;
-    }
+  .toggler {
+    border: none;
+  }
 }
