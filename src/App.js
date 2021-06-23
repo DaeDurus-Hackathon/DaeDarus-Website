@@ -12,6 +12,11 @@ import FAQ from './components/FAQ/FAQ'
 import CTA from './components/CTA/CTA'
 import Footer from './components/Footer/Footer'
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 function App() {
   return (
     <div className="App">

@@ -23,8 +23,8 @@ export default function NavBar() {
             <Navbar.Toggle className="toggler" aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="nav-links">
                 <Nav className="ml-auto" style={{fontFamily: 'Poppins'}}>
-                <Nav.Link href="#tracks">Tracks</Nav.Link>
-                <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#tracks">Tracks</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#sponsors">Sponsors</Nav.Link>
                 {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -32,10 +32,10 @@ export default function NavBar() {
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown> */}
-                <Nav.Link href="#organizers">Organizers</Nav.Link>
-                <Nav.Link href="#cp">Community Partners</Nav.Link>
-                <Nav.Link href="#prizes">Prizes</Nav.Link>
-                <Nav.Link href="#faq">FAQs</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#organizers">Organizers</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#cp">Community Partners</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#prizes">Prizes</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#faq">FAQs</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>         

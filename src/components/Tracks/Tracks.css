@@ -31,15 +31,30 @@
     background-color: #000000;
     color: white;
     padding: 3rem;
+    border: 2px solid white;
   }
   
   .flip-card-back {
-    background-color: #000000;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 5s ease infinite;
     color: white;
     padding: 3rem;
     transform: rotateY(180deg);
+    border: 2px solid white;
   }
-
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
   
 .mainhead1 {
     
@@ -59,6 +74,13 @@
   position: absolute;
   bottom: -10%;
   right: 0;
+}
+
+
+.svg-img1 {
+  position: absolute;
+  bottom: -10%;
+  right: -15%;
 }
 
 @keyframes shine {

@@ -6,7 +6,7 @@
 
 .topline {
     padding-top: 30vh;
-    font-size: 3vmax;
+    font-size: 2.5vmax;
 }
 
 .mainhead {
@@ -21,6 +21,10 @@
     -webkit-text-fill-color: transparent;
     
     animation: shine 6s ease infinite;
+}
+
+.btn {
+    border: 2px solid white;
 }
 
 @keyframes shine {

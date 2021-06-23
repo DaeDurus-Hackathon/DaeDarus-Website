@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 export default function CTA() {
     return (
         <div>
-            <h1>Be a part of the DaeDarus' Hacks today!</h1>
+            <h1 className="grad-text">Be a part of the DaeDarus' Hacks today!</h1>
             <div className="my-5">
                 <Button variant="primary" size="xxl" className="mx-2">
                 Register Now!
