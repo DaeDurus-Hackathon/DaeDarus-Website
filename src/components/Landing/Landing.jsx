@@ -24,7 +24,7 @@ export default function Landing() {
                 Register Now!
                 </Button>{' '}
                 <Button data-aos="fade-up" data-aos-duration="2000" variant="outline-light" size="xxl" className="btn m-2">
-                <img src={discord} style={{maxHeight: '30px'}}/>{' '}Discord
+                <img src={discord} style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Discord
                 </Button>
             </div>
         </div>
