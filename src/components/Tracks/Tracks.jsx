@@ -10,8 +10,9 @@ import love1 from '../../DrawKit - Social Movements Illustration Pack/2_LGBTQ+.s
 export default function Tracks() {
     return (
         <div id="tracks">
+        <Container className="py-5">
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="pt-5 grad-text">Tracks</h1>
-            <Container className="py-5">
+            
             <Row>
                 <Col data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                 <div class="flip-card">
