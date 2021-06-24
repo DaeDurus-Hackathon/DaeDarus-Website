@@ -1,10 +1,12 @@
 import React from 'react'
 import { Accordion, Card } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 import '../FAQ/faq.css'
 
 export default function FAQ() {
     return (
         <div className="faq" id="faq">
+        <Container className="py-5">
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="pt-5 grad-text">FAQ's</h1>
 
             <Accordion data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="mx-5 accordion">
@@ -89,7 +91,8 @@ export default function FAQ() {
                 <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
                 </Accordion.Collapse>
             </Card>
-            </Accordion>            
+            </Accordion>      
+        </Container>      
         </div>
     )
 }

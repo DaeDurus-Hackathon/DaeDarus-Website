@@ -32,8 +32,8 @@ export default function NavBar() {
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown> */}
-                <Nav.Link className="nav-toggles" href="#organizers">Organizers</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#cp">Community Partners</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#organizers">Organizers</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#prizes">Prizes</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#faq">FAQs</Nav.Link>
                 </Nav>

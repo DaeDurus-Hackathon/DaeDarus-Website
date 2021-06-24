@@ -15,15 +15,15 @@ export default function Landing() {
                     `}
                 </style>
 
-            <h3 data-aos="fade-up" data-aos-duration="2000" className="topline" style={{fontFamily: 'Poppins'}}>Your search for a thrilling Hackathon ends here!</h3>
-            <h1 data-aos="fade-up" data-aos-duration="2000" className="mainhead">DaeDarus' Hack</h1>
-            <h3 data-aos="fade-up" data-aos-duration="2000" className="date" style={{fontFamily: 'Poppins'}}>13th - 15th August, 2021</h3>
+            <h3 data-aos="fade-up" data-aos-duration="1000" className="topline" style={{fontFamily: 'Poppins'}}>Your search for a thrilling Hackathon ends here!</h3>
+            <h1 data-aos="fade-up" data-aos-duration="1000" className="mainhead">DaeDarus' Hack</h1>
+            <h3 data-aos="fade-up" data-aos-duration="1000" className="date" style={{fontFamily: 'Poppins'}}>13th - 15th August, 2021</h3>
 
             <div className="my-5">
-                <Button data-aos="fade-up" data-aos-duration="2000" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}}>
+                <Button data-aos="fade-right" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}}>
                 Register Now!
                 </Button>{' '}
-                <Button data-aos="fade-up" data-aos-duration="2000" variant="outline-light" size="xxl" className="btn m-2">
+                <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2">
                 <img src={discord} style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Discord
                 </Button>
             </div>
