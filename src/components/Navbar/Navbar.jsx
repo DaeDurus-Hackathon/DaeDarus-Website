@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Navbar/navbar.css'
+import daedarus from '../../images/daedarus.png'
 
 import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
 
@@ -9,11 +10,11 @@ export default function NavBar() {
             <Navbar className="navbar" collapseOnSelect expand="lg" variant="dark" fixed="top">
             <Navbar.Brand href="#home">
                 <img
-                    src="https://avatars.githubusercontent.com/u/85678928?s=400&u=716bc6dcb0b5243293da4d6adb5584388b6fda71&v=4"
+                    src={daedarus}
                     width="70"
                     height="70"
                     className="d-inline-block align-top md:ml-5"
-                    alt="React Bootstrap logo"
+                    alt="DaeDarus logo"
                 />{' '}
                 </Navbar.Brand>
 

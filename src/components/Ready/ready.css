@@ -1,3 +1,7 @@
+#ready{
+    line-height: 200%;
+}
+
 .ready {
     background-color: black;
     color: white;
@@ -7,7 +11,43 @@
     width: 100%;
 }
 
-#ready{
-    line-height: 200%;
+.header {
+    position: relative;
+    overflow: hidden;
 }
 
+.header::before {
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    overflow: hidden;
+    width: 70rem;
+    height: 3px;
+    content: '\a0';
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+@media only screen and (max-width: 1200px)
+{
+    .header {
+      text-align: center !important;
+    }
+    .header::before {
+        display: none;
+    }
+}

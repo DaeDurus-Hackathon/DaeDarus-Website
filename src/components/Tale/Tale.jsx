@@ -5,14 +5,13 @@ import { Container, Row, Col } from 'react-bootstrap'
 export default function Tale() {
     return (
         <div className="tale">
-
-            <h1 className="grad-text">DaeDalus' Tale</h1>
             <Container className="pt-5">
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="header1 text-right grad-text">DaeDalus' Tale</h1>
             <Row>
-                <Col data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                     <img className="daed-img" src="https://www.worldhistory.org/img/r/p/500x600/5052.jpg?v=1610998538" alt="daed-img" />
                 </Col>
-                <Col data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                     <h3 className="text-center para" id="tale">
                     Daedalus was a skillful architect and craftsman from the Greek mythology, regarded as a man of wisdom and knowledge. Amongst his most popular creations was the Labyrinth which was used as a means to imprison the Minotaur. Daedarus is the amalgamation of Daedalus and Icarus (his son). 
                     <br/><br/>

@@ -8,8 +8,13 @@
   margin-right: 3rem;
 }
 
+.nav-toggles {
+  color: white !important;
+}
+
 .nav-toggles:hover {
-    color: white !important;
+    transform: scale(1.1);
+    transition: 0.2s ease;
 }
 
 @media only screen and (max-width: 786px)

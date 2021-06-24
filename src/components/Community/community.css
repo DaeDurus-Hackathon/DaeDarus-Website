@@ -1,21 +1,26 @@
-.oc-img {
-    border-radius: 100%;
-}
-#oclogo{
-    height: 100px;
+.cp {
+  color: white;
 }
 
-.speak-text {
+/* .com-logo {
+  width: 12rem;
+} */
+
+#comlogo {
+  height: 150px;
+}
+
+.grad-header {
     position: relative;
     overflow: hidden;
   }
   
-  .speak-text::before {
+  .grad-header::before {
     position: absolute;
     top: 50%;
-    right:20%;
+    right:41%;
     overflow: hidden;
-    width: 70rem;
+    width: 50rem;
     height: 3px;
     content: '\a0';
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -25,10 +30,10 @@
   
   @media only screen and (max-width: 1200px)
   {
-    .speak-text {
+    .grad-header {
         text-align: center !important;
     }
-    .speak-text::before {
+    .grad-header::before {
         display: none;
     }
   }
