@@ -20,7 +20,7 @@ Footer
 - [ ] Images / Videos for the Backgrounds of sections  
 - [ ] Answers for the FAQ questions  
 - [x] Styling Ideas  
-- [ ] High Quality PNG image of DaeDarus Logo
+- [x] High Quality PNG image of DaeDarus Logo
 
 ### For all the changes required in design, colors, font, layout, shapes etc. update the changes on the excel sheet  
 https://docs.google.com/spreadsheets/d/12quzl8WyiUcOWykE8mN_1cxZ7yxoe0jIIUjiwTbmphY/edit#gid=0

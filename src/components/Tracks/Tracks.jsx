@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
 import '../Tracks/Tracks.css'
+import love from '../../DrawKit - Love & Family/family2.svg'
 import open from '../../DrawKit - Love & Family/family6.svg'
 import health from '../../DrawKit - Love & Family/family3.svg'
 import green from '../../DrawKit - Love & Family/family8.svg'
@@ -11,16 +12,16 @@ export default function Tracks() {
     return (
         <div id="tracks">
         <Container className="py-5">
-            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="pt-5 grad-text">Tracks</h1>
+        <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="header2 text-right pt-5 grad-text">Tracks</h1>
             
             <Row>
-                <Col data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
+                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                             <div class="flip-card-front">
                             <h1 className="mainhead1">Track 1:</h1>
                             <h1 className="mainhead1">Diversity and Inclusion</h1>
-                            <img className="svg-img1" src={love1} height="80%" width = "80%"/>
+                            <img className="svg-img" src={love} height="70%" width = "60%"/>
                             </div>
                             <div class="flip-card-back">
                             <h4>Create Technology to help create awareness and ultimately help in the inclusion of the less identified minor communities like LGBTQIA+, WIT, etc., establishing a sense of belonging among people coming from different walks of life.</h4>
@@ -28,7 +29,7 @@ export default function Tracks() {
                         </div>
                     </div>
                 </Col>
-                <Col data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
+                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -44,7 +45,7 @@ export default function Tracks() {
                 </Col>
             </Row>
             <Row>
-                <Col data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
+                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -58,7 +59,7 @@ export default function Tracks() {
                         </div>
                     </div>
                 </Col>
-                <Col data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
+                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">

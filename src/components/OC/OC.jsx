@@ -7,7 +7,7 @@ export default function OC() {
         <div className="oc" id="organizers">
         <Container className="py-5">
         <br></br>
-            <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" className="grad-text">Organizers</h1>
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="speak-text text-right grad-text">Speakers</h1>
             <Row className="my-5">
                 <Col><img id="oclogo"className="oc-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
                 <Col><img id="oclogo" className="oc-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
