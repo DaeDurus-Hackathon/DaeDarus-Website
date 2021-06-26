@@ -2,10 +2,13 @@ import React from 'react'
 import '../Landing/Landing.css'
 import { Button } from 'react-bootstrap'
 import discord from '../../images/discord2.png'
+import ParticleBackground from '../ParticleBackground/ParticleBackground'
 
 export default function Landing() {
     return (
         <div className="landing" id="home">
+        
+        <ParticleBackground/>
               <style type="text/css">
                     {`
                     .btn-xxl {
@@ -14,7 +17,6 @@ export default function Landing() {
                     }
                     `}
                 </style>
-
             <h3 data-aos="fade-up" data-aos-duration="1000" className="topline" style={{fontFamily: 'Poppins'}}>Your search for a thrilling Hackathon ends here!</h3>
             <h1 data-aos="fade-up" data-aos-duration="1000" className="mainhead">DaeDarus' Hack</h1>
             <h3 data-aos="fade-up" data-aos-duration="1000" className="date" style={{fontFamily: 'Poppins'}}>13th - 15th August, 2021</h3>

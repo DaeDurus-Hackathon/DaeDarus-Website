@@ -2,7 +2,7 @@ import React from 'react'
 import '../Navbar/navbar.css'
 import daedarus from '../../images/daedarus.png'
 
-import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 
 export default function NavBar() {
     return (
@@ -34,6 +34,7 @@ export default function NavBar() {
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown> */}
                 <Nav.Link className="nav-toggles" href="#cp">Community Partners</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#speakers">Speakers</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#organizers">Organizers</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#prizes">Prizes</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#faq">FAQs</Nav.Link>
