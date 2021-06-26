@@ -2,7 +2,7 @@ import React from 'react'
 import '../Navbar/navbar.css'
 import daedarus from '../../images/daedarus.png'
 
-import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 
 export default function NavBar() {
     return (
@@ -19,7 +19,7 @@ export default function NavBar() {
                 </Navbar.Brand>
 
                 <Navbar.Brand className="nav-name" href="#home">
-                <span style={{fontSize: '36px', fontFamily: 'poppins'}}>DaeDarus' Hacks</span>
+                <span style={{fontSize: '36px', fontFamily: 'poppins'}} className="grad-text">DaeDarus' Hack</span>
                 </Navbar.Brand>
             <Navbar.Toggle className="toggler" aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="nav-links">
@@ -34,6 +34,7 @@ export default function NavBar() {
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                 </NavDropdown> */}
                 <Nav.Link className="nav-toggles" href="#cp">Community Partners</Nav.Link>
+                <Nav.Link className="nav-toggles" href="#speakers">Speakers</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#organizers">Organizers</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#prizes">Prizes</Nav.Link>
                 <Nav.Link className="nav-toggles" href="#faq">FAQs</Nav.Link>

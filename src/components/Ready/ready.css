@@ -16,10 +16,10 @@
     overflow: hidden;
 }
 
-.header::before {
+.header::after {
     position: absolute;
     top: 80%;
-    right: 30%;
+    left: 30%;
     overflow: hidden;
     width: 70rem;
     height: 3px;
@@ -44,10 +44,13 @@
 
 @media only screen and (max-width: 1200px)
 {
+  .para {
+    text-align: center !important;
+  }
     .header {
       text-align: center !important;
     }
-    .header::before {
+    .header::after {
         display: none;
     }
 }

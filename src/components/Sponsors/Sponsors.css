@@ -1,6 +1,6 @@
 .text-gold {
     
-    background: linear-gradient(-45deg, #fff 20%, #ffd900 40%, #fff 60%, #ffd900 80%);
+    background: linear-gradient(-45deg, #fff 20%, #0084ff 40%, #fff 60%, #0084ff 80%);
     background-size: 200% auto;
     color: #000;
     background-clip: text;
@@ -24,7 +24,7 @@
 }
   
 .text-bronze {
-    background: linear-gradient(-45deg, #fff 10%, #CD7F32 40%, #fff 60%, #CD7F32 80%);
+    background: linear-gradient(-45deg, #fff 10%, #ffee00 40%, #fff 60%, #ffee00 80%);
     background-size: 200% auto;
     color: #000;
     background-clip: text;
@@ -43,7 +43,7 @@
   .header3::before {
     position: absolute;
     top: 50%;
-    right:20%;
+    left:20%;
     overflow: hidden;
     width: 70rem;
     height: 3px;
