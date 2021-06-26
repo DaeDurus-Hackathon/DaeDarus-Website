@@ -20,7 +20,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
-                <Card.Body className="card-body-acc">Hello! I'm the body</Card.Body>
+                <Card.Body className="card-body-acc">A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program. The word hackathon is a portmanteau of the words hacker, which means clever programmer, and marathon, an event marked by endurance.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
@@ -33,7 +33,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">The event will be held in the course of three days from 13th of August (9:00p.m) to 15th of August (12:00p.m) ,2021.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
@@ -46,7 +46,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">The registrations for the event will be held on Devpost.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
@@ -59,7 +59,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="3">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">To be disclosed soon. Keep checking the website for detailed information.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
@@ -72,7 +72,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="4">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">Zero. Zilch. Nada. Nothing. Registration for this hackathon is completely free.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
@@ -85,7 +85,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="5">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">All the submissions are to be made on the same platform where you registered, that is to say, all submissions shall be made to Devpost. To be eligible for judging, you have to make the submission before the event ends.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
@@ -98,20 +98,20 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="6">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">This hackathon is for all the enthusiastic people out there. You can participate even if you have graduated or are still in school.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
                 <Accordion.Toggle className="acc-toggle" as={Card.Header} eventKey="7">
                 <div className="d-flex justify-content-between">
                 <div>
-                8. Is my data secure?
+                8. How big can a team be?
                 </div>
                 <span>+</span>
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="7">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">The team size can vary from 2-4 people. However, the maximum number of participants in a team should not exceed 4 people. An advice, most teams prefer to have a variety of both design and development skills.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
@@ -124,10 +124,10 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="8">
-                <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
+                <Card.Body className="card-body-acc">Hackathons are a great way to analyze problem solving skills in a limited amount of time. It creates a requirement to think fast, work smartly and focus on key elements. It is the best platform to meet like-minded people, learn diverse tech skills, and enhance soft skills. Participants can learn new technology or tools while polishing up their communication, presentation, collaborative, and team-player skills that will increase the authentication of resumes.</Card.Body>
                 </Accordion.Collapse>
             </Card>
-            <Card className="card-acc">
+            {/* <Card className="card-acc">
                 <Accordion.Toggle className="acc-toggle" as={Card.Header} eventKey="9">
                 <div className="d-flex justify-content-between">
                 <div>
@@ -139,7 +139,7 @@ export default function FAQ() {
                 <Accordion.Collapse eventKey="9">
                 <Card.Body className="card-body-acc">Hello! I'm another body</Card.Body>
                 </Accordion.Collapse>
-            </Card>
+            </Card> */}
             </Accordion>      
         </Container>      
         </div>

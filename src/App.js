@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 // import Particles from 'react-particles-js';
 import NavBar from './components/Navbar/Navbar'
