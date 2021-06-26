@@ -12,7 +12,7 @@ export default function Tale() {
                     <img className="daed-img" src="https://www.worldhistory.org/img/r/p/500x600/5052.jpg?v=1610998538" alt="daed-img" />
                 </Col>
                 <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-                    <h3 className="text-center para" id="tale">
+                    <h3 className="text-left para" id="tale">
                     Daedalus was a skillful architect and craftsman from the Greek mythology, regarded as a man of wisdom and knowledge. Amongst his most popular creations was the Labyrinth which was used as a means to imprison the Minotaur. Daedarus is the amalgamation of Daedalus and Icarus (his son). 
                     <br/><br/>
                     With Daedarus’ Hack, create your own labyrinth of ideas, and use it to trap your desired project and help promote sustainable development for the greater good. 

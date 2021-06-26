@@ -7,7 +7,7 @@ export default function FAQ() {
     return (
         <div className="faq" id="faq">
         <Container className="py-5">
-            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="pt-5 grad-text">FAQ's</h1>
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="faq-text text-left pt-5 grad-text">FAQ's</h1>
 
             <Accordion data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="mx-2 accordion">
             <Card className="card-acc">

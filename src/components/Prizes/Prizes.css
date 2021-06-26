@@ -1,0 +1,38 @@
+.prizes-text {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .tba {
+      font-size: 4rem;
+      padding: 4rem;
+  }
+  
+  .prizes-text::after {
+    position: absolute;
+    top: 50%;
+    right:12%;
+    overflow: hidden;
+    width: 70rem;
+    height: 3px;
+    content: '\a0';
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @media only screen and (max-width: 1200px)
+  {
+    .prizes-text {
+        text-align: center !important;
+    }
+    .prizes-text::after {
+        display: none;
+    }
+    .tba {
+      text-align: center;
+      font-size: 3.5rem;
+      padding: 0;
+    }
+  }
+  
