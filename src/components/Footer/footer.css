@@ -9,3 +9,8 @@ p{
 i{
     color: aliceblue;
 }
+
+#copyright{
+    height: 50px;
+    background-color: aliceblue;
+}
