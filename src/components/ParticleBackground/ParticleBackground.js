@@ -4,8 +4,8 @@ import particlesConfig from '../../config/particle-config';
 
 export default function ParticleBackground(){
     return(
-        <div
-        style={{
+        <div>
+        <Particles         style={{
           position: "absolute",
           top: 0,
           left: 0,
@@ -13,9 +13,7 @@ export default function ParticleBackground(){
           width: '100%',
           zIndex: 0
           
-        }}
-      >
-        <Particles params={particlesConfig}/>
+        }} params={particlesConfig}/>
         </div>
     )
 }

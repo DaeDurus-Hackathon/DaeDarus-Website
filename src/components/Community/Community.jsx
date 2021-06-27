@@ -12,6 +12,12 @@ export default function Community() {
             
             <Row className="my-5">
                 <Col><img id="comlogo" className="com-logo" src={CFCLogo_Dark}/><h4>Code for Cause</h4></Col>
+                {/* <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
+                <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
+                <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col> */}
+            </Row>
+            {/* <Row className="my-5">
+                <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
                 <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
                 <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
                 <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
@@ -21,14 +27,8 @@ export default function Community() {
                 <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
                 <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
                 <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
-            </Row>
-            <Row className="my-5">
-                <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
-                <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
-                <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
-                <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
-            </Row>
-            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text">Wanna be a Community Partner?</h1>
+            </Row> */}
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text">Interested in being a Community Partner?</h1>
             <Button variant="light" size="xxl" className="m-2" style={{fontFamily: 'Poppins'}}>
                 Contact Us
             </Button>
