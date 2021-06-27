@@ -4,15 +4,18 @@ import nasaConfig from '../../config/footer-config';
 
 export default function FooterBackground(){
     return(
-        <div
-        style={{
-          position: "absolute",
-          bottom: 0,
-          width: "100%",
-          height: "100%"
-        }}
-        >
-        <Particles params={nasaConfig}/>
-        </div>
+      <div>
+      <Particles         
+      style={{
+        position: "relative",
+        top: 0,
+        left: 0,
+        height: '100vh',
+        width: '100%',
+        zIndex: 0
+        
+      }} params={nasaConfig}/>
+      </div>
+
     )
 }
