@@ -8,7 +8,7 @@ export default function Speakers() {
         <Container className="py-5">
         <br></br>
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="speak-text text-left grad-text">Speakers</h1>
-            <Row className="my-5">
+            {/* <Row className="my-5">
                 <Col><img id="splogo" className="sp-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
                 <Col><img id="splogo" className="sp-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
                 <Col><img id="splogo" className="sp-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
@@ -19,7 +19,9 @@ export default function Speakers() {
                 <Col><img id="splogo" className="sp-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
                 <Col><img id="splogo" className="sp-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
                 <Col><img id="splogo" className="sp-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><a href>Learn More</a></Col>
-            </Row>
+            </Row> */}
+
+        <h2 className="text-center grad-text tba">To be announced soon!</h2>
 
             </Container>  
         </div>
