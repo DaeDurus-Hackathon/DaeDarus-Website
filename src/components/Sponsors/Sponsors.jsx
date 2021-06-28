@@ -30,7 +30,7 @@ export default function Sponsors() {
             </Row> */}
 
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text">Interested in sponsoring us?</h1>
-            <Button variant="light" size="xxl" className="m-2" style={{fontFamily: 'Poppins'}}>
+            <Button variant="light" size="xxl" className="m-2" style={{fontFamily: 'Poppins'}} href="https://forms.gle/Ca8Q4gAQM1xKQhAM6">
                 Sponsor Us!
             </Button>
             </Container>               
