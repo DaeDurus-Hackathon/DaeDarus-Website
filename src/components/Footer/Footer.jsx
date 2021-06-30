@@ -28,10 +28,11 @@ export default function Footer() {
                 <h3 className="title">Connect with us at: </h3>
                 <br/>
                 <div style={{display: "flex", justifyContent: "space-between", width: '75%'}}>
-                  <SocialIcon url="https://www.linkedin.com/company/msakiit" />
-                  <SocialIcon url="https://www.instagram.com/msackiit/" />
-                  <SocialIcon url="https://www.facebook.com/msakiit" />
-                  <SocialIcon url="https://twitter.com/msakiit?s=08" />
+                  <SocialIcon url="mailto:support@daedarus.co"/>
+                  <SocialIcon url="https://www.linkedin.com/company/msakiit" target="_blank"/>
+                  <SocialIcon url="https://www.instagram.com/msackiit/" target="_blank"/>
+                  <SocialIcon url="https://www.facebook.com/msakiit" target="_blank"/>
+                  <SocialIcon url="https://twitter.com/msakiit?s=08" target="_blank"/>
                 </div>
               </MDBCol>
             </MDBRow>
