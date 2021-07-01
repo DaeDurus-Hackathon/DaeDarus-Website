@@ -4,6 +4,7 @@ import '../OC/OC.css'
 import pranav from '../../tinified-oc/IMG_20200722_111901 - Pranav Shekhar.jpg'
 import arnab from '../../tinified-oc/IMG_20200524_154858_627 - 019_ARNAB CHATTERJEE.jpg'
 import shreesha from '../../tinified-oc/2021-03-17-20-55-40-344 - 212 SREESHA GUPTA.jpg'
+import abhinavs from '../../tinified-oc/Abhinav Srivastava.jpg'
 import sritishna from '../../tinified-oc/Pic1 - SRITISHNA SARANGI-min.jpg'
 import subhayan from '../../tinified-oc/Favourite pic - 214 SUBHAYAN DAS.jpeg'
 import akash from '../../tinified-oc/Akash Chouhan - Akash Chouhan.jfif'
@@ -13,19 +14,18 @@ import abhinav from '../../tinified-oc/WhatsApp Image 2021-01-07 at 2.16.53 PM -
 import saniya from '../../tinified-oc/Snapchat-913224619 - 402_SANIYA BHARGAV(1).jpg'
 import swastika from '../../tinified-oc/64952590-2243-460C-B040-91C4AFD70C88 - 837_SWASTIKA BISHNOI.jpeg'
 import rohit from '../../tinified-oc/Rohit_Jaiswal_Operations - 235_ROHIT JAISWAL.jpeg'
-// import srijani from '../../tinified-oc/tinified-oc/me copy - Nimisha Das.jpg'
+
 import gaurav from '../../tinified-oc/Gaurav MSAC - 530_GAURAV KUMAR VERMA.png'
 import srijita from '../../tinified-oc/IMG_20200620_095454_237 - 571_Srijita Mallick.jpg'
-
 import shreya1 from '../../tinified-oc/WhatsApp Image 2021-02-05 at 8.30.28 PM (3) - 5272_SHREYA AGARWAL.jpeg'
-// import rahul from '../../tinified-oc/'
+import rahul from '../../tinified-oc/rahul.jpeg'
 import sagnik from '../../tinified-oc/sagnik - 420_SAGNIK GHOSH.png'
 import arushi from '../../tinified-oc/2020-10-24-075044764 - 293_AARUSHI SHANKER.jpg'
 import satwick from '../../tinified-oc/IMG_20210329_173106~2 - 198_SAATWIK.jpg'
 import himanshu from '../../tinified-oc/IMG_1176-1 (2) - 900_HIMANSHU VERMA.jpg'
 import anvit from '../../tinified-oc/IMG_20201019_210215 - 5220_ANVIT DUBEY.jpg'
 import arnab1 from '../../tinified-oc/d42631aa-c987-4c18-81bd-d29faf4abc9c - 017_ARNAB DAN.jpg'
-
+import mayank from '../../tinified-oc/Mayank Jain - 6553 - MAYANK JAIN.jpeg'
 import ayshi from '../../tinified-oc/WhatsApp Image 2021-05-28 at 11.49.12 PM - 018_AYSHI BHOWMIK.jpeg'
 import aniket from '../../tinified-oc/PicsArt_05-11-04.23.56 - 075_ ANIKET BHUNIA.jpg'
 import shreya2 from '../../tinified-oc/Shreya-Technical - 717_SHREYA.jpeg'
@@ -36,6 +36,9 @@ import sagar from '../../tinified-oc/IMG-20210414-WA0022-01 - 5261_SAGAR SATAPAT
 import priyanka from '../../tinified-oc/Priyanka Dutta - 335_PRIYANKA DUTTA.jpeg'
 import amrutanshu from '../../tinified-oc/IMG20210316211728 - 735_AMRUTANSHU DASH.jpg'
 import urja from '../../tinified-oc/IMG_20210202_192511~2 - URJA JAIN.jpg'
+import atig from '../../tinified-oc/WhatsApp Image 2021-07-01 at 8.24.11 PM.jpeg'
+import santanu from '../../tinified-oc/DPfb - 465_Santanu Biswas.jpg'
+import aditya from '../../tinified-oc/7863B231-AD0C-44C5-BAA5-25E9D2CB25B1 - Aditya Sinha.jpeg'
 
 export default function OC() {
     return (
@@ -47,7 +50,7 @@ export default function OC() {
         
             <Row className="my-5">
                 <Col><img id="oclogo" className="oc-img" src={pranav}/><h3>Pranav Shekhar</h3></Col>
-                {/* <Col><img id="oclogo" className="oc-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h3>Abhinav Srivastava</h3></Col> */}
+                <Col><img id="oclogo" className="oc-img" src={abhinavs}/><h3>Abhinav Srivastava</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={shreesha}/><h3>Sreesha Gupta</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={sritishna}/><h3>Sritishna Sarangi</h3></Col>
             </Row>
@@ -71,7 +74,7 @@ export default function OC() {
             </Row>
             <Row className="my-5">
                 <Col><img id="oclogo" className="oc-img" src={shreya1}/><h3>Shreya Agarwal</h3></Col>
-                {/* <Col><img id="oclogo" className="oc-img" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h3>Rahul</h3></Col> */}
+                <Col><img id="oclogo" className="oc-img" src={rahul}/><h3>Rahul Mishra</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={sagnik}/><h3>Sagnik Ghosh</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={arushi}/><h3>Aarushi Shanker</h3></Col>
             </Row>
@@ -96,6 +99,12 @@ export default function OC() {
             <Row className="my-5">
                 <Col><img id="oclogo" className="oc-img" src={amrutanshu}/><h3>Amrutanshu Dash</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={urja}/><h3>Urja Jain</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={mayank}/><h3>Mayank Jain</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={atig}/><h3>Atig Purohit</h3></Col>
+            </Row>
+            <Row className="my-5">
+                <Col><img id="oclogo" className="oc-img" src={santanu}/><h3>Santanu Biswas</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya</h3></Col>
             </Row>
             </Container>  
         </div>

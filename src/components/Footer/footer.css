@@ -14,3 +14,8 @@ i{
     height: 50px;
     background-color: aliceblue;
 }
+
+.mdb-col {
+    padding: 2rem 0;
+    background-color: black;
+}

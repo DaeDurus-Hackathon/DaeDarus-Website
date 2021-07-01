@@ -27,7 +27,7 @@ export default function Footer() {
               <MDBCol md="4">
                 <h3 className="title">Connect with us at: </h3>
                 <br/>
-                <div style={{display: "flex", justifyContent: "space-between", width: '75%'}}>
+                <div style={{display: "flex", justifyContent: "space-between", width: '75%', margin: '0 3rem' }}>
                   <SocialIcon url="mailto:support@daedarus.co"/>
                   <SocialIcon url="https://www.linkedin.com/company/msakiit" target="_blank"/>
                   <SocialIcon url="https://www.instagram.com/msackiit/" target="_blank"/>
@@ -39,7 +39,7 @@ export default function Footer() {
           </MDBContainer>
           <div className="footer-copyright text-center py-3" id="copyright" style={{backgroundColor: 'black'}}>
             <MDBContainer fluid style={{color: 'white'}}>
-              <MDBRow>
+              <MDBRow className="mdb-col">
                 <MDBCol>
               &copy; {new Date().getFullYear()} Copyright:{" "}
               <a href="https://msackiit.tech/" target="__blank"> MSC KIIT </a>
