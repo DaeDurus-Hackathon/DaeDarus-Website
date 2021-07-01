@@ -23,7 +23,7 @@ export default function Register() {
                 </style>
             <h3 data-aos="fade-up" data-aos-duration="1000" className="topline" style={{fontFamily: 'Poppins'}}>Your search for a thrilling Hackathon ends here!</h3>
             <h1 data-aos="fade-up" data-aos-duration="1000" className="mainhead">DaeDarus' Hack</h1>
-            <h1 className="register-title" >Registrations Will Open Soon!</h1>
+            <h1 className="register-title" >Registrations Going Live Soon!</h1>
 
             
         </div>

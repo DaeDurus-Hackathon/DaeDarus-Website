@@ -98,7 +98,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="6">
-                <Card.Body className="card-body-acc">This hackathon is for all the enthusiastic people out there. You can participate even if you have graduated or are still in school.</Card.Body>
+                <Card.Body className="card-body-acc">This hackathon is for all the enthusiastic people out there. You can participate even if you have graduated or are still in school, provided you are aged 18 years or above.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
