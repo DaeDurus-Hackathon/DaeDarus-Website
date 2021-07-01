@@ -26,17 +26,28 @@ export default function Footer() {
               </MDBCol>
               <MDBCol md="4">
                 <h3 className="title">Connect with us at: </h3>
-                <SocialIcon url="https://www.linkedin.com/company/msackiit/mycompany/" />
-                <SocialIcon url="https://www.instagram.com/msackiit/" />
-                <SocialIcon url="https://www.facebook.com/msakiit" />
-                <SocialIcon url="https://twitter.com/msackiit" />
+                <br/>
+                <div style={{display: "flex", justifyContent: "space-between", width: '75%'}}>
+                  <SocialIcon url="mailto:support@daedarus.co"/>
+                  <SocialIcon url="https://www.linkedin.com/company/msakiit" target="_blank"/>
+                  <SocialIcon url="https://www.instagram.com/msackiit/" target="_blank"/>
+                  <SocialIcon url="https://www.facebook.com/msakiit" target="_blank"/>
+                  <SocialIcon url="https://twitter.com/msakiit?s=08" target="_blank"/>
+                </div>
               </MDBCol>
             </MDBRow>
           </MDBContainer>
-          <div className="footer-copyright text-center py-3" id="copyright">
-            <MDBContainer fluid>
+          <div className="footer-copyright text-center py-3" id="copyright" style={{backgroundColor: 'black'}}>
+            <MDBContainer fluid style={{color: 'white'}}>
+              <MDBRow>
+                <MDBCol>
               &copy; {new Date().getFullYear()} Copyright:{" "}
               <a href="https://msackiit.tech/" target="__blank"> MSC KIIT </a>
+              </MDBCol>
+              <MDBCol>
+                Made with ❤ and ☕ by MSAC Web Team.
+              </MDBCol>
+              </MDBRow>
             </MDBContainer>
           </div>
         </MDBFooter>
