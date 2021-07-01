@@ -37,7 +37,7 @@ function App() {
               <OC/>
             </Route>
 
-            <Route exact path="/">
+            <Router path="/">
               <Landing />
               <Tale />
               <Ready />
@@ -48,7 +48,7 @@ function App() {
               <Prizes />
               <FAQ />
               <CTA />
-            </Route>
+            </Router>
           </Switch>
         </div>
 
