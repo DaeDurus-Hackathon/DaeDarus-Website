@@ -28,6 +28,15 @@ function App() {
 
         <div className="content">
           <Switch>
+
+            <Route path="/register">
+              <Register/>
+            </Route>
+
+            <Route path="/organizers">
+              <OC/>
+            </Route>
+
             <Route exact path="/">
               <Landing />
               <Tale />
@@ -39,14 +48,6 @@ function App() {
               <Prizes />
               <FAQ />
               <CTA />
-            </Route>
-
-            <Route path="/register">
-              <Register/>
-            </Route>
-
-            <Route path="/organizers">
-              <OC/>
             </Route>
           </Switch>
         </div>
