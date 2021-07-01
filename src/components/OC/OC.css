@@ -2,10 +2,30 @@
     border-radius: 100%;
 }
 #oclogo{
-    height: 100px;
+    height: 150px;
 }
 
-.speak-text {
+.octitle {
+  font-size: 4vmax;
+  background: linear-gradient(
+    -45deg,
+    #ee7752 20%,
+    #e73c7e 40%,
+    #23a6d5 60%,
+    #23d5ab 80%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 6s ease infinite;
+}
+
+/* .speak-text {
     position: relative;
     overflow: hidden;
   }
@@ -32,4 +52,4 @@
         display: none;
     }
   }
-  
+  */

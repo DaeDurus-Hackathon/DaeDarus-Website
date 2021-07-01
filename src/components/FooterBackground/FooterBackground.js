@@ -7,12 +7,11 @@ export default function FooterBackground(){
       <div>
       <Particles         
       style={{
-        position: "relative",
+        position: "absolute",
         top: 0,
         left: 0,
         height: '100vh',
-        width: '100%',
-        zIndex: 0
+        width: '100%'
         
       }} params={nasaConfig}/>
       </div>
