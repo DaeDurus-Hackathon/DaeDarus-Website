@@ -6,7 +6,7 @@ import arnab from '../../tinified-oc/IMG_20200524_154858_627 - 019_ARNAB CHATTER
 import shreesha from '../../tinified-oc/2021-03-17-20-55-40-344 - 212 SREESHA GUPTA.jpg'
 import abhinavs from '../../tinified-oc/Abhinav Srivastava.jpg'
 import sritishna from '../../tinified-oc/Pic1 - SRITISHNA SARANGI-min.jpg'
-import subhayan from '../../tinified-oc/Favourite pic - 214 SUBHAYAN DAS.jpeg'
+import subhayan from '../../tinified-oc/Favourite pic - 214 SUBHAYAN DAS.jpg'
 import akash from '../../tinified-oc/Akash Chouhan - Akash Chouhan.jfif'
 import nimisha from '../../tinified-oc/me copy - Nimisha Das.jpg'
 import animesh from '../../tinified-oc/IMG_20191020_174245 - 152_Animesh Pathak-min.jpg'
