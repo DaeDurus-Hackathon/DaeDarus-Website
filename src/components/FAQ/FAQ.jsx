@@ -148,7 +148,7 @@ export default function FAQ() {
         <br></br>
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="org-header text-right grad-text">Organizers</h1>
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text tba">Meet the amazing team behind DaeDarus' Hack !</h1>
-            <Button variant="light" size="xxl" className="m-2" style={{fontFamily: 'Poppins'}} href="https://forms.gle/Y22opUKLgDdk4shc7" target="__blank">
+            <Button variant="light" size="xxl" className="m-2" style={{fontFamily: 'Poppins'}} href="/organizers">
                 Meet the Team
             </Button>
             </Container>               
