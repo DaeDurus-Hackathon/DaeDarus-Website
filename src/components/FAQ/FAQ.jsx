@@ -1,6 +1,6 @@
 import React from 'react'
 import { Accordion, Card } from 'react-bootstrap'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Container, Col, Row, Button } from 'react-bootstrap'
 import '../FAQ/faq.css'
 
 export default function FAQ() {
@@ -142,6 +142,17 @@ export default function FAQ() {
             </Card> */}
             </Accordion>      
         </Container>      
+
+        <div id="cp">
+        <Container className="py-5 cp" style={{fontFamily: 'Poppins'}}>
+        <br></br>
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="org-header text-right grad-text">Organizers</h1>
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text tba">Meet the amazing team behind DaeDarus' Hack !</h1>
+            <Button variant="light" size="xxl" className="m-2" style={{fontFamily: 'Poppins'}} href="https://forms.gle/Y22opUKLgDdk4shc7" target="__blank">
+                Meet the Team
+            </Button>
+            </Container>               
+        </div>
         </div>
     )
 }

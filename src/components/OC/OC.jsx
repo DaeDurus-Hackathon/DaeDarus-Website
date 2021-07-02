@@ -14,7 +14,7 @@ import abhinav from '../../tinified-oc/WhatsApp Image 2021-01-07 at 2.16.53 PM -
 import saniya from '../../tinified-oc/Snapchat-913224619 - 402_SANIYA BHARGAV(1).jpg'
 import swastika from '../../tinified-oc/64952590-2243-460C-B040-91C4AFD70C88 - 837_SWASTIKA BISHNOI.jpeg'
 import rohit from '../../tinified-oc/Rohit_Jaiswal_Operations - 235_ROHIT JAISWAL.jpeg'
-
+import utkarsh from '../../tinified-oc/WhatsApp Image 2021-07-01 at 10.01.14 PM.jpeg'
 import gaurav from '../../tinified-oc/Gaurav MSAC - 530_GAURAV KUMAR VERMA.png'
 import srijita from '../../tinified-oc/IMG_20200620_095454_237 - 571_Srijita Mallick.jpg'
 import shreya1 from '../../tinified-oc/WhatsApp Image 2021-02-05 at 8.30.28 PM (3) - 5272_SHREYA AGARWAL.jpeg'
@@ -105,6 +105,7 @@ export default function OC() {
             <Row className="my-5">
                 <Col><img id="oclogo" className="oc-img" src={santanu}/><h3>Santanu Biswas</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={utkarsh}/><h3>Utkarsh Keerti</h3></Col>
             </Row>
             </Container>  
         </div>
