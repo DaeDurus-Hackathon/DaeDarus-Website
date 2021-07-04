@@ -111,7 +111,7 @@ export default function FAQ() {
                 </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="7">
-                <Card.Body className="card-body-acc">The team size can vary from 2-4 people. However, the maximum number of participants in a team should not exceed 4 people. An advice, most teams prefer to have a variety of both design and development skills.</Card.Body>
+                <Card.Body className="card-body-acc">The team size can vary from 2-3 people. However, the maximum number of participants in a team should not exceed 3 people. An advice, most teams prefer to have a variety of both design and development skills.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card className="card-acc">
