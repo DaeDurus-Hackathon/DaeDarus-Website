@@ -114,7 +114,7 @@ export default function OC() {
             <Row className="my-5">
                 
                 <Col><img id="oclogo" className="oc-img" src={nishant}/><h3>Nishant Giri</h3></Col>
-                <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya Sinha</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={utkarsh}/><h3>Utkarsh Keerti</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={harsh}/><h3>Harsh</h3></Col>
             </Row>
