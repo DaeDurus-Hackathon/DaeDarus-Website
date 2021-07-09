@@ -37,7 +37,7 @@ function App() {
               <OC/>
             </Route>
 
-            <Route exact path="/">
+            <Route path="/">
               <Landing />
               <Tale />
               <Ready />

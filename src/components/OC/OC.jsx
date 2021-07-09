@@ -6,7 +6,7 @@ import arnab from '../../tinified-oc/IMG_20200524_154858_627 - 019_ARNAB CHATTER
 import shreesha from '../../tinified-oc/2021-03-17-20-55-40-344 - 212 SREESHA GUPTA.jpg'
 import abhinavs from '../../tinified-oc/Abhinav Srivastava.jpg'
 import sritishna from '../../tinified-oc/Pic1 - SRITISHNA SARANGI-min.jpg'
-import subhayan from '../../tinified-oc/Favourite pic - 214 SUBHAYAN DAS.jpeg'
+import subhayan from '../../tinified-oc/Favourite pic - 214 SUBHAYAN DAS.jpg'
 import akash from '../../tinified-oc/Akash Chouhan - Akash Chouhan.jfif'
 import nimisha from '../../tinified-oc/me copy - Nimisha Das.jpg'
 import animesh from '../../tinified-oc/IMG_20191020_174245 - 152_Animesh Pathak-min.jpg'
@@ -14,7 +14,7 @@ import abhinav from '../../tinified-oc/WhatsApp Image 2021-01-07 at 2.16.53 PM -
 import saniya from '../../tinified-oc/Snapchat-913224619 - 402_SANIYA BHARGAV(1).jpg'
 import swastika from '../../tinified-oc/64952590-2243-460C-B040-91C4AFD70C88 - 837_SWASTIKA BISHNOI.jpeg'
 import rohit from '../../tinified-oc/Rohit_Jaiswal_Operations - 235_ROHIT JAISWAL.jpeg'
-
+import utkarsh from '../../tinified-oc/WhatsApp Image 2021-07-01 at 10.01.14 PM.jpeg'
 import gaurav from '../../tinified-oc/Gaurav MSAC - 530_GAURAV KUMAR VERMA.png'
 import srijita from '../../tinified-oc/IMG_20200620_095454_237 - 571_Srijita Mallick.jpg'
 import shreya1 from '../../tinified-oc/WhatsApp Image 2021-02-05 at 8.30.28 PM (3) - 5272_SHREYA AGARWAL.jpeg'
@@ -39,6 +39,10 @@ import urja from '../../tinified-oc/IMG_20210202_192511~2 - URJA JAIN.jpg'
 import atig from '../../tinified-oc/WhatsApp Image 2021-07-01 at 8.24.11 PM.jpeg'
 import santanu from '../../tinified-oc/DPfb - 465_Santanu Biswas.jpg'
 import aditya from '../../tinified-oc/7863B231-AD0C-44C5-BAA5-25E9D2CB25B1 - Aditya Sinha.jpeg'
+import harsh from '../../tinified-oc/Screenshot 2021-07-03 192803.jpg'
+import nishant from '../../tinified-oc/Nishant - Nishant Giri.jpg'
+import divyam from '../../tinified-oc/Divyam.jpg'
+import siddhant from '../../tinified-oc/Siddhant.jpg'  
 
 export default function OC() {
     return (
@@ -71,40 +75,53 @@ export default function OC() {
                 {/* <Col><img id="oclogo" className="oc-img"/><h3>Srijani</h3></Col> */}
                 <Col><img id="oclogo" className="oc-img" src={gaurav}/><h3>Gaurav Kumar Verma</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={srijita}/><h3>Srijita</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={shreya1}/><h3>Shreya Agarwal</h3></Col>
             </Row>
             <Row className="my-5">
-                <Col><img id="oclogo" className="oc-img" src={shreya1}/><h3>Shreya Agarwal</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={rahul}/><h3>Rahul Mishra</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={sagnik}/><h3>Sagnik Ghosh</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={arushi}/><h3>Aarushi Shanker</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={satwick}/><h3>Saatwik</h3></Col>
             </Row>
             <Row className="my-5">
-                <Col><img id="oclogo" className="oc-img" src={satwick}/><h3>Saatwik</h3></Col>
+                
                 <Col><img id="oclogo" className="oc-img" src={himanshu}/><h3>Himanshu Verma</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={anvit}/><h3>Anvit Dubey</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={arnab1}/><h3>Arnab Dan</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={ayshi}/><h3>Ayshi Bhowmik</h3></Col>
             </Row>
             <Row className="my-5">
-                <Col><img id="oclogo" className="oc-img" src={ayshi}/><h3>Ayshi Bhowmik</h3></Col>
+                
                 <Col><img id="oclogo" className="oc-img" src={aniket}/><h3>Aniket Bhunia</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={shreya2}/><h3>Shreya</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={medhavi}/><h3>Medhavi Basera</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={krishanu}/><h3>Krishanu Tiwary </h3></Col>
             </Row>
             <Row className="my-5">
-                <Col><img id="oclogo" className="oc-img" src={krishanu}/><h3>Krishanu Tiwary </h3></Col>
+                
                 <Col><img id="oclogo" className="oc-img" src={akshita}/><h3>Akshita Sah</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={sagar}/><h3>Sagar Satapathy</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={priyanka}/><h3>Priyanka Dutta</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={amrutanshu}/><h3>Amrutanshu Dash</h3></Col>
             </Row>
             <Row className="my-5">
-                <Col><img id="oclogo" className="oc-img" src={amrutanshu}/><h3>Amrutanshu Dash</h3></Col>
+                
                 <Col><img id="oclogo" className="oc-img" src={urja}/><h3>Urja Jain</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={mayank}/><h3>Mayank Jain</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={atig}/><h3>Atig Purohit</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={santanu}/><h3>Santanu Biswas</h3></Col>
             </Row>
             <Row className="my-5">
-                <Col><img id="oclogo" className="oc-img" src={santanu}/><h3>Santanu Biswas</h3></Col>
-                <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya</h3></Col>
+                
+                <Col><img id="oclogo" className="oc-img" src={nishant}/><h3>Nishant Giri</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya Sinha</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={utkarsh}/><h3>Utkarsh Keerti</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={harsh}/><h3>Harsh</h3></Col>
+            </Row>
+            <Row className="my-5">
+                
+                <Col><img id="oclogo" className="oc-img" src={siddhant}/><h3>Siddhant Sahay</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={divyam}/><h3>Divyam Pradhan</h3></Col>
             </Row>
             </Container>  
         </div>

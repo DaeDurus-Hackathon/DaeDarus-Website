@@ -1,15 +1,23 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import FooterBackground from "../FooterBackground/FooterBackground";
 import Logo1 from '../../images/Logo1.png'
 import { SocialIcon } from 'react-social-icons';
+import bg from '../../images/bggif.gif'
 
 import '../Footer/footer.css'
+// import { repeat } from "lodash";
 
 export default function Footer() {
   return (
 
-    <div className="footer" id="footer">
+    <div className="footer" id="footer" class="bg_image"
+    style={{
+      backgroundImage: 'url('+bg+')',
+      // backgroundSize: "cover",
+      height: "100%",
+      color: "#f5f5f5",
+      // repeat: "repeat-y"
+    }}>
       <h1 className="grad-text">Contact us</h1>
         <MDBFooter color="blue" className="font-small pt-4 mt-4">
           <MDBContainer fluid className="text-center text-md-left">
@@ -19,7 +27,7 @@ export default function Footer() {
               </MDBCol>
               <MDBCol md="6">
                 <h3 className="title">Microsoft Student Community KIIT</h3>
-                <p>
+                <p style={{fontFamily: 'DM Sans'}}>
                   Finding your community is more important than ever as classes
                   and social activities take place virtually.
                 </p>
@@ -27,7 +35,7 @@ export default function Footer() {
               <MDBCol md="4">
                 <h3 className="title">Connect with us at: </h3>
                 <br/>
-                <div style={{display: "flex", justifyContent: "space-between", width: '75%', margin: '0 3rem' }}>
+                <div style={{display: "flex", justifyContent: "space-between", width: '75%', margin: '0 auto' }}>
                   <SocialIcon url="mailto:support@daedarus.co"/>
                   <SocialIcon url="https://www.linkedin.com/company/msakiit" target="_blank"/>
                   <SocialIcon url="https://www.instagram.com/msackiit/" target="_blank"/>
@@ -37,7 +45,7 @@ export default function Footer() {
               </MDBCol>
             </MDBRow>
           </MDBContainer>
-          <div className="footer-copyright text-center py-3" id="copyright" style={{backgroundColor: 'black'}}>
+          <div className="footer-copyright text-center py-3" id="copyright" style={{backgroundColor: 'black', fontFamily: 'DM Sans'}}>
             <MDBContainer fluid style={{color: 'white'}}>
               <MDBRow className="mdb-col">
                 <MDBCol>
