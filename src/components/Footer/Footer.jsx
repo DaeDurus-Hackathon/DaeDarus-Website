@@ -19,7 +19,7 @@ export default function Footer() {
               </MDBCol>
               <MDBCol md="6">
                 <h3 className="title">Microsoft Student Community KIIT</h3>
-                <p>
+                <p style={{fontFamily: 'DM Sans'}}>
                   Finding your community is more important than ever as classes
                   and social activities take place virtually.
                 </p>
@@ -37,7 +37,7 @@ export default function Footer() {
               </MDBCol>
             </MDBRow>
           </MDBContainer>
-          <div className="footer-copyright text-center py-3" id="copyright" style={{backgroundColor: 'black'}}>
+          <div className="footer-copyright text-center py-3" id="copyright" style={{backgroundColor: 'black', fontFamily: 'DM Sans'}}>
             <MDBContainer fluid style={{color: 'white'}}>
               <MDBRow className="mdb-col">
                 <MDBCol>
