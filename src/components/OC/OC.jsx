@@ -41,6 +41,8 @@ import santanu from '../../tinified-oc/DPfb - 465_Santanu Biswas.jpg'
 import aditya from '../../tinified-oc/7863B231-AD0C-44C5-BAA5-25E9D2CB25B1 - Aditya Sinha.jpeg'
 import harsh from '../../tinified-oc/Screenshot 2021-07-03 192803.jpg'
 import nishant from '../../tinified-oc/Nishant - Nishant Giri.jpg'
+import divyam from '../../tinified-oc/Divyam.jpg'
+import siddhant from '../../tinified-oc/Siddhant.jpg'  
 
 export default function OC() {
     return (
@@ -112,9 +114,14 @@ export default function OC() {
             <Row className="my-5">
                 
                 <Col><img id="oclogo" className="oc-img" src={nishant}/><h3>Nishant Giri</h3></Col>
-                <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={aditya}/><h3>Aditya Sinha</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={utkarsh}/><h3>Utkarsh Keerti</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={harsh}/><h3>Harsh</h3></Col>
+            </Row>
+            <Row className="my-5">
+                
+                <Col><img id="oclogo" className="oc-img" src={siddhant}/><h3>Siddhant Sahay</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={divyam}/><h3>Divyam Pradhan</h3></Col>
             </Row>
             </Container>  
         </div>
