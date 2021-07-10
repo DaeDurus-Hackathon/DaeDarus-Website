@@ -15,6 +15,7 @@ import Prizes from "./components/Prizes/Prizes";
 import FAQ from "./components/FAQ/FAQ";
 import CTA from "./components/CTA/CTA";
 import Footer from "./components/Footer/Footer";
+import Video from "./components/Video/Video";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -41,6 +42,7 @@ function App() {
               <Landing />
               <Tale />
               <Ready />
+              <Video url = "https://www.youtube.com/watch?v=vLDuc15hA-o"/>
               <Tracks />
               <Sponsors />
               <Community />
