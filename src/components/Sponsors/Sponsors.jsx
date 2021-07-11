@@ -32,14 +32,11 @@ export default function Sponsors() {
             </Row> */}
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze">Gold Sponsors</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col className="spon-col"><img  className="spon-logos" src={Rahee}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={taskade}/></Col>
+                <Col className="spon-col"><img  className="spon-logos" src={Rahee}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={draftbit}/></Col>
-            </Row>
-            <Row className="my-5 d-flex align-items-center">
-            <Col className="spon-col"><img  className="spon-logos" src={cppsecrets}/></Col>
+                <Col className="spon-col"><img  className="spon-logos" src={cppsecrets}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={xyz}/></Col>
-                
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze-real">Bronze Sponsors</span></h1>
