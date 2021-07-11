@@ -35,6 +35,41 @@
     font-size: 4rem;
 }
 
+.text-bronze-real {
+  background: linear-gradient(-45deg, #fff 10%, #CD7F32 40%, #fff 60%, #CD7F32 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s ease infinite;
+  font-size: 4rem;
+}
+
+.text-partner {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.spon-col {
+  width: 10%;
+}
+
+.spon-logos {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.spon-logos:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+.sponsors h2 {
+  color: #fff;
+}
+
 .header3 {
     position: relative;
     overflow: hidden;
