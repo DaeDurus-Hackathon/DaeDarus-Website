@@ -41,17 +41,12 @@ export default function Sponsors() {
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze-real">Bronze Sponsors</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={cn}/></Col>
-                <Col></Col>
+                <Col className="spon-col"><img width="350" className="spon-logos" src={cn}/></Col>
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-partner">Partners</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={GMC}/><h2>Give My Certificate</h2><h3>Cerificate Partner</h3></Col>
-                <Col className="spon-col"><img  className="spon-logos" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><h3>YouTube Partner</h3></Col>
-                <Col></Col>
             </Row>
 
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text">Interested in sponsoring us?</h1>

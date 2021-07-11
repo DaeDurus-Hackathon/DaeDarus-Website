@@ -16,6 +16,7 @@ import FAQ from "./components/FAQ/FAQ";
 import CTA from "./components/CTA/CTA";
 import Footer from "./components/Footer/Footer";
 import Video from "./components/Video/Video";
+import JM from "./components/JM/JM";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -46,6 +47,7 @@ function App() {
               <Tracks />
               <Sponsors />
               <Community />
+              <JM />
               <Speakers />
               <Prizes />
               <FAQ />
