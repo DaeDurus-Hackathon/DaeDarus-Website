@@ -1,9 +1,4 @@
-.sp-img {
-    border-radius: 100%;
-}
-#splogo{
-    height: 100px;
-}
+
 
 .speak-text {
     position: relative;
@@ -32,3 +27,54 @@
     display: none;
   }
 }
+
+
+.speak-col {
+  width: 10%;
+}
+
+.speak-logos {
+  width: 100%;
+  border-radius: 3rem;
+}
+
+.speak-logos:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+.speakers h2 {
+  color: #fff;
+}
+
+.speakers h5 {
+  color: #fff;
+}
+.header3 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header3::before {
+    position: absolute;
+    top: 50%;
+    left:20%;
+    overflow: hidden;
+    width: 70rem;
+    height: 3px;
+    content: '\a0';
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @media only screen and (max-width: 1200px)
+  {
+    .header3 {
+        text-align: center !important;
+    }
+    .header3::before {
+        display: none;
+    }
+  }
+  
