@@ -9,6 +9,9 @@ import xyz from '../../sponsor-logos/xyz.svg'
 import cn from '../../sponsor-logos/cn.svg'
 import GMC from '../../sponsor-logos/GMC.png'
 import Rahee from '../../sponsor-logos/Raahee.png'
+import symbl from '../../sponsor-logos/symbl.png'
+import sawo from '../../sponsor-logos/sawo.png'
+
 
 
 export default function Sponsors() {
@@ -24,12 +27,11 @@ export default function Sponsors() {
                 <Col className="spon-col"><img src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/></Col>
                 <Col className="spon-col"><img src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/></Col>
             </Row> */}
-            {/* <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-silver">Platinum Sponsors</span></h1>
+            <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-silver">Platinum Sponsors</span></h1>
             <Row className="my-5">
-                <Col className="spon-col"><img src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/></Col>
-                <Col className="spon-col"><img src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/></Col>
-                <Col className="spon-col"><img src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/></Col>
-            </Row> */}
+                <Col className="spon-col"><img  className="spon-logos" src={symbl}/></Col>
+                <Col className="spon-col"><img  className="spon-logos" src={sawo}/></Col>
+            </Row>
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze">Gold Sponsors</span></h1>
             <Row className="my-5 d-flex align-items-center">
                 <Col className="spon-col"><img  className="spon-logos" src={taskade}/></Col>
@@ -41,17 +43,12 @@ export default function Sponsors() {
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze-real">Bronze Sponsors</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={cn}/></Col>
-                <Col></Col>
+                <Col className="spon-col"><img width="350" className="spon-logos" src={cn}/></Col>
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-partner">Partners</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={GMC}/><h2>Give My Certificate</h2><h3>Cerificate Partner</h3></Col>
-                <Col className="spon-col"><img  className="spon-logos" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><h3>YouTube Partner</h3></Col>
-                <Col></Col>
             </Row>
 
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text">Interested in sponsoring us?</h1>

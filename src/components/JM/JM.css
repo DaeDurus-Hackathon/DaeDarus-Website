@@ -1,14 +1,14 @@
 
 
-.speak-text {
+.jm-text {
     position: relative;
     overflow: hidden;
   }
   
-  .speak-text::after {
+  .jm-text::after {
     position: absolute;
     top: 50%;
-    left:20%;
+    left:40%;
     overflow: hidden;
     width: 70rem;
     height: 3px;
@@ -20,10 +20,10 @@
   
 @media only screen and (max-width: 1200px)
 {
-  .speak-text{
+  .jm-text{
     text-align: center !important;
   }
-  .speak-text::after {
+  .jm-text::after {
     display: none;
   }
 }
@@ -36,6 +36,7 @@
 .speak-logos {
   width: 230px;
   border-radius: 3rem;
+  margin: 1rem 0;
 }
 
 .speak-logos:hover {
@@ -43,11 +44,11 @@
   transition: 0.2s ease;
 }
 
-.speakers h2 {
+.jm h2 {
   color: #fff;
 }
 
-.speakers h5 {
+.jm h5 {
   color: #fff;
 }
 .header3 {

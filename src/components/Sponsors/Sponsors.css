@@ -60,6 +60,7 @@
   /* width: 100%; */
   height: 200px;
   border-radius: 1rem;
+  margin: 1rem 0;
 }
 
 .spon-logos:hover {
@@ -96,6 +97,12 @@
     }
     .header3::before {
         display: none;
+    }
+  }
+
+  @media only screen and (max-width: 786px) {
+    .spon-logos {
+      height: 150px;
     }
   }
   
