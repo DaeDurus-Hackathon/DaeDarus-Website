@@ -32,14 +32,11 @@ export default function Sponsors() {
             </Row> */}
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze">Gold Sponsors</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col className="spon-col"><img  className="spon-logos" src={Rahee}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={taskade}/></Col>
+                <Col className="spon-col"><img  className="spon-logos" src={Rahee}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={draftbit}/></Col>
-            </Row>
-            <Row className="my-5 d-flex align-items-center">
-            <Col className="spon-col"><img  className="spon-logos" src={cppsecrets}/></Col>
+                <Col className="spon-col"><img  className="spon-logos" src={cppsecrets}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={xyz}/></Col>
-                
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze-real">Bronze Sponsors</span></h1>
@@ -53,6 +50,7 @@ export default function Sponsors() {
             <Row className="my-5 d-flex align-items-center">
                 <Col></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={GMC}/><h2>Give My Certificate</h2><h3>Cerificate Partner</h3></Col>
+                <Col className="spon-col"><img  className="spon-logos" src="https://yt3.ggpht.com/a/AATXAJzRRhdZXMpfWAxD0y8-eTEftyA7aNWw8U35tSJL=s900-c-k-c0x00ffffff-no-rj"/><h2>KIIT Kaksha</h2><h3>YouTube Partner</h3></Col>
                 <Col></Col>
             </Row>
 

@@ -53,11 +53,12 @@
 }
 
 .spon-col {
-  width: 10%;
+  
 }
 
 .spon-logos {
-  width: 100%;
+  /* width: 100%; */
+  height: 200px;
   border-radius: 1rem;
 }
 
