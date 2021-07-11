@@ -99,4 +99,10 @@
         display: none;
     }
   }
+
+  @media only screen and (max-width: 786px) {
+    .spon-logos {
+      height: 150px;
+    }
+  }
   
