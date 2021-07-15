@@ -43,6 +43,7 @@ import harsh from '../../tinified-oc/Screenshot 2021-07-03 192803.jpg'
 import nishant from '../../tinified-oc/Nishant - Nishant Giri.jpg'
 import divyam from '../../tinified-oc/Divyam.jpg'
 import siddhant from '../../tinified-oc/Siddhant.jpg'  
+import palak from '../../tinified-oc/WhatsApp Image 2021-07-12 at 6.20.10 PM.jpeg'
 
 export default function OC() {
     return (
@@ -122,6 +123,7 @@ export default function OC() {
                 
                 <Col><img id="oclogo" className="oc-img" src={siddhant}/><h3>Siddhant Sahay</h3></Col>
                 <Col><img id="oclogo" className="oc-img" src={divyam}/><h3>Divyam Pradhan</h3></Col>
+                <Col><img id="oclogo" className="oc-img" src={palak}/><h3>Palak Sharma</h3></Col>
             </Row>
             </Container>  
         </div>

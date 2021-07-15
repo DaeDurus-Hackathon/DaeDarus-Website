@@ -36,7 +36,7 @@ export default function JM() {
             <Row className="my-5">
                 <Col><img class="speak-logos" src={Rishit}/><h2>Rishit Dagli</h2><SocialIcon url="https://www.linkedin.com/in/rishit-dagli/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={Pratyush}/><h2>Pratyush Agarwal</h2><SocialIcon url="https://www.linkedin.com/in/pratsy/" target="_blank"/></Col>
-                <Col><img class="speak-logos" src="https://media-exp1.licdn.com/dms/image/C4E03AQG0mtRxvZyNSA/profile-displayphoto-shrink_400_400/0/1608149412407?e=1631750400&v=beta&t=AwgapwRfkLH81eFVjvqa8e0mokW4Y3xvoHn6cTfHk5k"/><h2>Rajatav Dutta</h2><SocialIcon url="https://www.linkedin.com/in/williams-k-sarah/" target="_blank"/></Col>
+                <Col><img class="speak-logos" src="https://media-exp1.licdn.com/dms/image/C4E03AQG0mtRxvZyNSA/profile-displayphoto-shrink_400_400/0/1608149412407?e=1631750400&v=beta&t=AwgapwRfkLH81eFVjvqa8e0mokW4Y3xvoHn6cTfHk5k"/><h2>Rajatav Dutta</h2><SocialIcon url="https://www.linkedin.com/in/rajatavdutta/" target="_blank"/></Col>
             </Row>
 
             </Container>  
