@@ -11,6 +11,7 @@ import GMC from '../../sponsor-logos/GMC.png'
 import Rahee from '../../sponsor-logos/Raahee.png'
 import symbl from '../../sponsor-logos/symbl.png'
 import sawo from '../../sponsor-logos/sawo.png'
+import techBairn from '../../sponsor-logos/TechBairn.jpeg'
 
 
 
@@ -39,6 +40,7 @@ export default function Sponsors() {
                 <Col className="spon-col"><img  className="spon-logos" src={draftbit}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={cppsecrets}/></Col>
                 <Col className="spon-col"><img  className="spon-logos" src={xyz}/></Col>
+                <Col className="spon-col"><img  className="spon-logos" src={techBairn}/></Col>
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze-real">Bronze Sponsors</span></h1>
