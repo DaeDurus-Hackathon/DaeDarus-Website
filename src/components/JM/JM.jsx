@@ -11,7 +11,7 @@ import Ronak from '../../jm-pictures/Judges/Ronak Sahuja.jpg'
 import Jen from '../../jm-pictures/Judges/Jen Looper.jpg'
 
 
-// import Rishit from '../../jm-pictures/Judges/Rishit Dagil.jpg'
+import Rishit from '../../jm-pictures/Judges/Rishit Dagil.jpg'
 import Pratyush from '../../jm-pictures/Speakers/Pratyush Agrawal.jpg'
 import AmanMittal from '../../jm-pictures/Judges/Aman Mittal.jpg'
 
@@ -26,11 +26,13 @@ export default function JM() {
                 <Col><img class="speak-logos" src={Aanchal}/><h2>Aanchal Mishra</h2><SocialIcon url="https://www.linkedin.com/in/mishra-aanchal/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={Bhargav}/><h2>Bhargav Joshi</h2><SocialIcon url="https://www.linkedin.com/in/bhargavjoshi55/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={Sarah}/><h2>Sarah Williams</h2><SocialIcon url="https://www.linkedin.com/in/williams-k-sarah/" target="_blank"/></Col>
+                
             </Row>
             <Row className="my-5">
-            <Col><img class="speak-logos" src={AmanMittal}/><h2>Aman Mittal</h2><SocialIcon url="https://www.linkedin.com/in/mishra-aanchal/" target="_blank"/></Col>
+            <Col><img class="speak-logos" src={Jen}/><h2>Jen Looper</h2><SocialIcon url="https://www.linkedin.com/in/jen-looper-3442413/" target="_blank"/></Col>
+            <Col><img class="speak-logos" src={AmanMittal}/><h2>Aman Mittal</h2><SocialIcon url="https://www.linkedin.com/in/aman-mittal-05a239117/" target="_blank"/></Col>
+            <Col><img class="speak-logos" src={Rishit}/><h2>Rishit Dagli</h2><SocialIcon url="https://www.linkedin.com/in/rishit-dagli/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={Ronak}/><h2>Ronak Sahuja</h2><SocialIcon url="https://www.linkedin.com/in/ronaksakhuja/" target="_blank"/></Col>
-                <Col><img class="speak-logos" src={Jen}/><h2>Jen Looper</h2><SocialIcon url="https://www.linkedin.com/in/jen-looper-3442413/" target="_blank"/></Col>
             </Row>
 
 
