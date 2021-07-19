@@ -20,11 +20,6 @@
     z-index: -10;
   }
   
-  .topline {
-      padding-top: 30vh;
-      font-size: 2.5vmax;
-  }
-  
   .register-title{
     font-size: 3vmax;
     color: aliceblue;
