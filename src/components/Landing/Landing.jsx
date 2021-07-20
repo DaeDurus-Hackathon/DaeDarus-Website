@@ -34,8 +34,8 @@ export default function Landing() {
                 </Button>
             </div>
             <div>
-            <Button variant="light" data-aos-duration="500" size="xl" style={{fontFamily: 'Poppins'}}>
-            <SocialIcon url="https://www.youtube.com/watch?v=Y94pYiJjP5c" target="_blank"/> Live Now!!!
+            <Button className="btn p-2" variant="outline-light" data-aos-duration="500" size="xl" style={{fontFamily: 'Poppins', fontSize: '24px'}} >
+            <SocialIcon url="https://www.youtube.com/watch?v=Y94pYiJjP5c" target="_blank"/> Live Now
             </Button>
             </div>
             
