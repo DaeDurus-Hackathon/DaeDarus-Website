@@ -13,6 +13,7 @@ import prithvi from '../../speakers-photos/prithvi.jpeg'
 import praveen from '../../speakers-photos/Praveen Kumar.jpg'
 import shashank from '../../speakers-photos/Shashank Shekhar.jfif'
 import pratyush from '../../speakers-photos/Pratyush Agrawal.jpg'
+import saumyajit from '../../speakers-photos/Saumyajit2.jpg'
 
 
 export default function Speakers() {
@@ -35,6 +36,9 @@ export default function Speakers() {
                 <Col><img class="speak-logos" src={prithvi}/><h2>Prithvi Raj</h2><h3></h3><h5>Open Source Community Manager at ChaosNative</h5><SocialIcon url="https://www.linkedin.com/in/prithvi1307/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={shashank}/><h2>Shashank Shekhar</h2><h5>Associate Data Scientist at Celebal Technologies</h5><SocialIcon url="https://www.linkedin.com/in/shashank2806/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={praveen}/><h2>Praveen K. Purushothaman</h2><h5>Lead Consultant - Technology at Virtusa, UK</h5><SocialIcon url="https://www.linkedin.com/in/praveentech/" target="_blank"/></Col>
+            </Row>
+            <Row className="my-5">
+                <Col><img class="speak-logos" src={saumyajit}/><h2>Saumyajit Maity</h2><h5>Content Creator and <br></br>Youtuber: Pixel Samy (120k+)</h5><SocialIcon url="https://www.linkedin.com/in/pixelsamy/" target="_blank"/></Col>
             </Row>
             
 
