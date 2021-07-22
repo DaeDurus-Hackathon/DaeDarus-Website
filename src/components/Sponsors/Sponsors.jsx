@@ -11,7 +11,9 @@ import GMC from '../../sponsor-logos/GMC.png'
 import Rahee from '../../sponsor-logos/Raahee.png'
 import symbl from '../../sponsor-logos/symbl.png'
 import sawo from '../../sponsor-logos/sawo.png'
+import koi from '../../sponsor-logos/koi.png'
 import techBairn from '../../sponsor-logos/TechBairn.jpeg'
+import noticebard from '../../sponsor-logos/noticebard.jpeg'
 
 
 
@@ -30,27 +32,90 @@ export default function Sponsors() {
             </Row> */}
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-silver">Platinum Sponsors</span></h1>
             <Row className="my-5">
-                <Col className="spon-col"><img  className="spon-logos" src={symbl}/></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={sawo}/></Col>
+                
+                <Col className="spon-col">
+                    <a href="https://symbl.ai/" target="__blank" >
+                    <img  className="spon-logos" src={symbl}/>
+                    </a>
+                </Col>
+                
+                
+                <Col className="spon-col">
+                    <a href="https://sawolabs.com/" target="__blank">
+                    <img  className="spon-logos" src={sawo}/>
+                    </a>
+                    </Col>
+                
+                <Col className="spon-col">
+                    <a href="https://koii.network/" target="__blank">
+                    <img  className="spon-logos" src={koi}/>
+                    </a>
+                    </Col>
             </Row>
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze">Gold Sponsors</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col className="spon-col"><img  className="spon-logos" src={taskade}/></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={Rahee}/></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={draftbit}/></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={cppsecrets}/></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={xyz}/></Col>
-                <Col className="spon-col"><img  className="spon-logos" src={techBairn}/></Col>
+                
+                <Col className="spon-col">
+                    <a href="https://www.taskade.com/" target="__blank">
+                    <img  className="spon-logos" src={taskade}/>
+                    </a>
+                    </Col>
+                
+                <Col className="spon-col">
+                    <a href="https://raahee.in/" target="__blank">
+                    <img  className="spon-logos" src={Rahee}/>
+                    </a>
+                    </Col>
+                
+                <Col className="spon-col">
+                    <a href="https://draftbit.com/" target="__blank">
+                    <img  className="spon-logos" src={draftbit}/>
+                    </a>
+                    </Col>
+                
+                <Col className="spon-col">
+                    <a href="https://cppsecrets.com/" target="__blank">
+                    <img  className="spon-logos" src={cppsecrets}/>
+                    </a>
+                    </Col>
+                
+                <Col className="spon-col">
+                    <a href="https://gen.xyz/" target="__blank">
+                    <img  className="spon-logos" src={xyz}/>
+                    </a>
+                    </Col>
+                
+                <Col className="spon-col">
+                    <a href="https://techbairn.com/" target="__blank">
+                    <img  className="spon-logos" src={techBairn}/>
+                    </a>
+                    </Col>
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze-real">Bronze Sponsors</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col className="spon-col"><img width="350" className="spon-logos" src={cn}/></Col>
+                
+                <Col className="spon-col">
+                    <a href="https://www.codingninjas.com/" target="__blank">
+                    <img width="350" className="spon-logos" src={cn}/>
+                    </a>
+                    </Col>
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-partner">Partners</span></h1>
             <Row className="my-5 d-flex align-items-center">
-                <Col className="spon-col"><img  className="spon-logos" src={GMC}/><h2>Give My Certificate</h2><h3>Cerificate Partner</h3></Col>
+                
+                <Col className="spon-col">
+                    <a href="https://www.givemycertificate.com/" target="__blank">
+                    <img  className="spon-logos" src={GMC}/><h2>Give My Certificate</h2><h3>Cerificate Partner</h3>
+                    </a>
+                    </Col>
+                
+                <Col className="spon-col">
+                    <a href="https://www.noticebard.com/" target="__blank">
+                    <img  className="spon-logos" src={noticebard}/><h2>Noticebard</h2><h3>Meida Partner</h3>
+                    </a>
+                    </Col>
             </Row>
 
             <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="grad-text">Interested in sponsoring us?</h1>
