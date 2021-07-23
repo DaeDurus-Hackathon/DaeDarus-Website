@@ -107,13 +107,13 @@ export default function Sponsors() {
                 
                 <Col className="spon-col">
                     <a href="https://www.givemycertificate.com/" target="__blank">
-                    <img  className="spon-logos" src={GMC}/><h2>Give My Certificate</h2><h3>Cerificate Partner</h3>
+                    <img  className="spon-logos" src={GMC}/><h2>Give My Certificate</h2><h3>Certificate Partner</h3>
                     </a>
                     </Col>
                 
                 <Col className="spon-col">
                     <a href="https://www.noticebard.com/" target="__blank">
-                    <img  className="spon-logos" src={noticebard}/><h2>Noticebard</h2><h3>Meida Partner</h3>
+                    <img  className="spon-logos" src={noticebard}/><h2>Noticebard</h2><h3>Media Partner</h3>
                     </a>
                     </Col>
             </Row>
