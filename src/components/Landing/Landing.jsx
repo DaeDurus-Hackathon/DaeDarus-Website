@@ -33,7 +33,7 @@ export default function Landing() {
                 <img src="https://discord.com/assets/f9bb9c4af2b9c32a2c5ee0014661546d.png" style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Discord
                 </Button>
                 <div>
-                <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://www.youtube.com/watch?v=Y94pYiJjP5c" target="__blank"   >
+                <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://www.youtube.com/watch?v=r46FCyQgaD4&t" target="__blank"   >
                 <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Live Now
                 </Button>
                 </div>
