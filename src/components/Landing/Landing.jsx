@@ -32,14 +32,20 @@ export default function Landing() {
                 <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://discord.gg/NUeM8VrNpS" target="__blank"   >
                 <img src="https://discord.com/assets/f9bb9c4af2b9c32a2c5ee0014661546d.png" style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Discord
                 </Button>
+                <div>
+                <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://www.youtube.com/watch?v=r46FCyQgaD4&t" target="__blank"   >
+                <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Live Now
+                </Button>
+                </div>
             </div>
-            <div>
-            <Button className="btn p-2" variant="outline-light" data-aos-duration="500" size="xl" style={{fontFamily: 'Poppins', fontSize: '24px'}} >
-            <SocialIcon url="https://www.youtube.com/watch?v=Y94pYiJjP5c" target="_blank"/> Live Now
+            {/* <div>
+            <Button className="btn m-2" variant="outline-light" data-aos-duration="500" size="xxl" style={{fontFamily: 'Poppins', fontSize: '24px'}} href="https://www.youtube.com/watch?v=Y94pYiJjP5c" target="__blank">
+            <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" style={{maxHeight: '30px'}} alt={"yt img"}/>{' '}Live Now
             </Button>
             </div>
-            
+             */}
         </div>
         
     )
 }
+// https://www.youtube.com/watch?v=Y94pYiJjP5c
