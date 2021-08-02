@@ -29,7 +29,7 @@ export default function Landing() {
                 <Button data-aos="fade-right" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://daedarus-hack.devpost.com/" target="__blank">
                 Register Now!
                 </Button>{' '}
-                <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://discord.gg/NUeM8VrNpS" target="__blank"   >
+                <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://discord.gg/5MfkFAsEeS" target="__blank"   >
                 <img src="https://discord.com/assets/f9bb9c4af2b9c32a2c5ee0014661546d.png" style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Discord
                 </Button>
                 <div>
