@@ -21,7 +21,11 @@ export default function Community() {
             </Row>
             <Row className="my-5">
                 <Col><img id="comlogo" className="com-logo" src={hcvit}/><h4>Hackclub VIT B</h4></Col>
-                <Col><img id="comlogo" className="com-logo" src={hnitr}/><h4>Hack NIT R</h4></Col>
+                <Col>
+                    <a href="https://hacknitr.tech/" target="__blank">
+                    <img id="comlogo" className="com-logo" src={hnitr}/><h4>HackNITR</h4>
+                    </a>
+                </Col>
             </Row>
             {/* <Row className="my-5">
                 <Col><img id="comlogo" className="com-logo" src="https://media-exp3.licdn.com/dms/image/C4E0BAQHikN6EXPd23Q/company-logo_200_200/0/1595359131127?e=2159024400&v=beta&t=S5MNjBDjiH433VCWzjPeiopNDhxGwmfcMk4Zf1P_m_s"/><h4>KIIT Kaksha</h4></Col>
