@@ -49,7 +49,7 @@ function App() {
               <Community />
               <JM />
               <Speakers />
-              {/* <Prizes /> */}
+              <Prizes />
               <FAQ />
               <CTA />
             </Route>

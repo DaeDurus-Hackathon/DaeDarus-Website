@@ -18,7 +18,14 @@ export default function Prizes() {
                                 <h1 className="mainhead1-prize">Daedalus' Reward</h1>
                             </div>
                             <div class="flip-card-back-prize">
-                            <h4>Create Technology to help create awareness and ultimately help in the inclusion of the less identified minor communities like LGBTQIA+, WIT, etc., establishing a sense of belonging among people coming from different walks of life.</h4>
+                            <h4>
+                                <ul>
+                                    <li>Internship Opportunity at CPPSecrets</li>
+                                    <li>Swags!</li>
+                                    <li>ShoutOut</li>
+                                    <li>Project Showcase!</li>
+                                </ul>
+                            </h4>
                             </div>
                         </div>
                     </div>
@@ -30,7 +37,7 @@ export default function Prizes() {
                             <h1 className="mainhead1-prize">Icarus' Reward (10)</h1>
                             </div>
                             <div class="flip-card-back-prize">
-                            <h4>Technology isn’t restrictive, and neither are we. Even if you have an idea that does not fit in our primary themes, you’re welcome to portray any idea that creates a good social impact on society in any manner.</h4>
+                            <h4>Top 10 Teams get to Intern at CPPSecrets (all team members inclusive!)</h4>
                             </div>
                         </div>
                     </div>
@@ -40,19 +47,12 @@ export default function Prizes() {
                 <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                     <div class="flip-card-prize">
                         <div class="flip-card-inner-prize">
-                            <div class="flip-card-front-prize">
-                            <Row className="mainhead2-prize">
-                                <Col>
-                                <h1 style={{fontSize: '4rem'}}>Built For SAWO</h1>
-                                </Col>
-                                <Col>
-                                <h3 style={{textAlign: 'center'}}>sponsored by</h3>
-                                <img src={sawo} style={{width: '12vmax', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}/>
-                                </Col>
-                            </Row>
+                        <div class="flip-card-front-sawo">
+                            <h1 className="mainhead1-prize sawo">Built for SAWO</h1>
                             </div>
                             <div class="flip-card-back-prize">
-                            <h4>Amidst the world in a pandemic, the healthcare systems of every country have been overburdened. With several avenues open for exploration and research, come up and dominate the world with ideas to boost the healthcare sector’s productivity. Give new insights to improve the overall quality of care provided. </h4>
+                            <h4>Use the SAWO Labs API as part of their project to be eligible for a reward like $100 Prize to winning team, 1-month free Inaugurate Tier access Feature in the Blogs & Articles. Social media shout Discord/Slack as well as SAWO funds 100% of the Playstore.</h4>
+                            <img  src={sawo} style={{width: '50%', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}/>
                             </div>
                         </div>
                     </div>
@@ -60,19 +60,12 @@ export default function Prizes() {
                 <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                     <div class="flip-card-prize">
                         <div class="flip-card-inner-prize">
-                            <div class="flip-card-front-prize">
-                            <Row className="mainhead2-prize">
-                                <Col>
-                                <h1 style={{fontSize: '4rem'}}>Built For Raahee</h1>
-                                </Col>
-                                <Col>
-                                <h3 style={{textAlign: 'center'}}>sponsored by</h3>
-                                <img src={Rahee} style={{width: '12vmax', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}/>
-                                </Col>
-                            </Row>
+                            <div class="flip-card-front-raahee">
+                            <h1 className="mainhead1-prize">Built for RAAHEE</h1>
                             </div>
                             <div class="flip-card-back-prize">
-                            <h4>To revolutionize the way technology is being molded, as it has great effects on the world’s effort of a greener and richer environment. Bring your innovative minds to work towards a greener future and a sustainable environment.</h4>
+                            <h4>Best team project in Mental Health Category gets internship opportunity from RAHEE.</h4>
+                            <img  src={Rahee} style={{width: '50%', display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: '2rem'}}/>
                             </div>
                         </div>
                     </div>
