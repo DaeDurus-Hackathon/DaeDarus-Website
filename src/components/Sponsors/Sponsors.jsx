@@ -12,6 +12,9 @@ import Rahee from '../../sponsor-logos/Raahee.png'
 import symbl from '../../sponsor-logos/symbl.png'
 import sawo from '../../sponsor-logos/sawo.png'
 import koi from '../../sponsor-logos/koi.png'
+import Wolfram from '../../sponsor-logos/Wolfram.png'
+import balsamiq from '../../sponsor-logos/balsamiq.png'
+import egghead from '../../sponsor-logos/eggheaad.jfif'
 import techBairn from '../../sponsor-logos/TechBairn.jpeg'
 import noticebard from '../../sponsor-logos/noticebard.jpeg'
 
@@ -90,6 +93,12 @@ export default function Sponsors() {
                     <img  className="spon-logos" src={techBairn}/>
                     </a>
                     </Col>
+
+                    <Col className="spon-col">
+                    <a href="https://egghead.io/" target="__blank">
+                    <img  className="spon-logos" src={egghead}/>
+                    </a>
+                    </Col>
             </Row>
 
             <h1 data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-sine" ><span className="text-bronze-real">Bronze Sponsors</span></h1>
@@ -98,6 +107,18 @@ export default function Sponsors() {
                 <Col className="spon-col">
                     <a href="https://www.codingninjas.com/" target="__blank">
                     <img width="350" className="spon-logos" src={cn}/>
+                    </a>
+                    </Col>
+
+                    <Col className="spon-col">
+                    <a href="https://www.wolfram.com/" target="__blank">
+                    <img  className="spon-logos" src={Wolfram}/>
+                    </a>
+                    </Col>
+
+                    <Col className="spon-col">
+                    <a href="https://balsamiq.com/" target="__blank">
+                    <img  className="spon-logos" src={balsamiq}/>
                     </a>
                     </Col>
             </Row>
