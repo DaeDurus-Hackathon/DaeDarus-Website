@@ -26,8 +26,8 @@ export default function Landing() {
             <h3 data-aos="fade-up" data-aos-duration="1000" className="date" style={{fontFamily: 'Poppins'}}>13th - 15th August, 2021</h3>
 
             <div className="my-4">
-                <Button data-aos="fade-right" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://daedarus-hack.devpost.com/" target="__blank">
-                Register Now!
+                <Button data-aos="fade-right" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://daedarus-hack.devpost.com/" target="__blank" disabled>
+                Registrations Closed
                 </Button>{' '}
                 <Button data-aos="fade-left" data-aos-duration="500" variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://discord.gg/5MfkFAsEeS" target="__blank"   >
                 <img src="https://discord.com/assets/f9bb9c4af2b9c32a2c5ee0014661546d.png" style={{maxHeight: '30px'}} alt={"discord img"}/>{' '}Discord

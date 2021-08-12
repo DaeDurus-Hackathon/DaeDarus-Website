@@ -61,6 +61,24 @@
   animation: gradient 5s ease infinite;
 }
 
+.headeriti {
+  position: relative;
+  overflow: hidden;
+}
+
+.headeriti::before {
+  position: absolute;
+  top: 75%;
+  right:48%;
+  overflow: hidden;
+  width: 80rem;
+  height: 3px;
+  content: '\a0';
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
+}
+
 @media only screen and (max-width: 1200px)
 {
   .header2 {

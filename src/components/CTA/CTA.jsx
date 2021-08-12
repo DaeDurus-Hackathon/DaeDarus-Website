@@ -7,8 +7,8 @@ export default function CTA() {
         <div>
             <h1 className="grad-text" style={{fontSize: '4rem'}}>Be a part of the DaeDarus' Hacks today!</h1>
             <div className="my-5">
-                <Button variant="outline-light" size="xxl" className="m-2" style={{fontFamily: 'poppins'}} href="https://daedarus-hack.devpost.com/" target="__blank">
-                Register Now!
+                <Button variant="outline-light" size="xxl" className="m-2" style={{fontFamily: 'poppins'}} href="https://daedarus-hack.devpost.com/" target="__blank" disabled>
+                Registrations Closed
                 </Button>{' '}
                 
                 <Button variant="outline-light" size="xxl" className="btn m-2" style={{fontFamily: 'Poppins'}} href="https://discord.gg/5MfkFAsEeS" target="__blank">

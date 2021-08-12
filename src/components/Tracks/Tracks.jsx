@@ -6,6 +6,7 @@ import open from '../../DrawKit - Love & Family/family6.svg'
 import health from '../../DrawKit - Love & Family/family3.svg'
 import green from '../../DrawKit - Love & Family/family8.svg'
 import love1 from '../../DrawKit - Social Movements Illustration Pack/2_LGBTQ+.svg'
+import itirenary from '../../images/ITINERARY_10.png'
 
 
 export default function Tracks() {
@@ -74,6 +75,10 @@ export default function Tracks() {
                     </div>
                 </Col>
             </Row>
+
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="headeriti text-right pt-5 grad-text">DaeDarus' Hack Itinerary</h1>
+
+            <img src={itirenary} width="100%"/>
             </Container>            
         </div>
     )
