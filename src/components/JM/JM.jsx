@@ -37,7 +37,7 @@ export default function JM() {
             </Row>
 
             <Row className="my-5">
-            <Col><img class="speak-logos" src={Ronak}/><h2>Ronak Sahuja</h2><SocialIcon url="https://www.linkedin.com/in/ronaksakhuja/" target="_blank"/></Col>
+            <Col><img class="speak-logos" src={Ronak}/><h2>Ronak Sakhuja</h2><SocialIcon url="https://www.linkedin.com/in/ronaksakhuja/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={anna}/><h2>Anna Godfrey</h2><SocialIcon url="https://www.linkedin.com/in/anna-godfrey-7b79485a/" target="_blank"/></Col>
                 <Col><img class="speak-logos" src={sndeep}/><h2>Sandeep Singh</h2><SocialIcon url="https://www.linkedin.com/in/sandybcsald/" target="_blank"/></Col>
             </Row>
